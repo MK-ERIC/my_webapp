@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs 'NodeJS-18'  // Make sure this matches your NodeJS installation name
-    }
-
     stages {
         stage('Install Dependencies') {
             steps {
